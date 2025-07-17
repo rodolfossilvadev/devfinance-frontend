@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./src/assets/logo.svg" height="150" alt="DevFinance Logo" />
+<a href="https://devfinance-frontend.vercel.app/" target="_blank">DevFinance</a> 
   <h1>DevFinance • Frontend</h1>
 </div>
 
