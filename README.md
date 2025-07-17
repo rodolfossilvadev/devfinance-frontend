@@ -1,7 +1,6 @@
 
 <div align="center">
-  <h1>💰 DevFinance • Frontend</h1>
-  <a href="https://devfinance-frontend.vercel.app/" target="_blank">  <h1>💰 DevFinance • Frontend</h1>
+  <a href="https://devfinance-frontend.vercel.app/" target="_blank">💰 DevFinance • Frontend
 </a> 
 </div>
 
