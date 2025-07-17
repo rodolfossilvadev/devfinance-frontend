@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    /* Cores do tema */
+    --color-primary-500: #FFA500;
+    --color-primary-600: #FF8C00;
+    --color-primary-700: #FF4500;
+  
+    --color-blue-950: #1A2B3E;
+    /* background */
+    --color-blue-900: #2c3f55;
+    /* card */
+    --color-blue-600: #1f4066;
+    /* lighter */
+    --color-blue-700: #122133;
+    /* border */
+    --color-gray-400: #94A3B8;
+    /* text-muted */
+    --color-gray-50: #FFFFFF;
+    /* text */
+  
+    --color-red-500: #FF5873;
+    /* danger */
+    --color-green-400: #37Ed70;
+    /* success */
+    --color-yellow-500: #F9CA24;
+    /* warning */
+  
+    /* Fontes */
+    --font-sans: Inter, system-ui, sans-serif;
+}
+
+body{
+    @apply bg-[#1f4066] text-gray-50 min-h-screen font-sans ;
+}
+
+.container-app {
+    @apply max-w-7xl mx-auto px-4
+}
+
+@keyframes glow{
+    0%{
+        box-shadow: 0 0 5px rgba(55, 227, 89, 0.3)
+    }
+    100%{
+        box-shadow: 0 0 15px rgba(55, 227, 89, 0.8)
+
+    }
+}
+.glow{
+    animation: glow 2s ease-in-out  infinite alternate;
+}
+
