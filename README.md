@@ -38,20 +38,11 @@ O **DevFinance** é uma aplicação web que permite que o usuário:
 - Controle as finanças de forma simples e intuitiva.
 
 ---
-
-## 📚 O que aprendi
-
-Este projeto foi essencial para consolidar os seguintes aprendizados:
-
-- Integração entre front e back com autenticação;
-- Criação de interfaces com componentes reutilizáveis;
-- Gerenciamento de estado e hooks no React;
-- Estruturação de rotas privadas e públicas;
-- Deploy com Vercel (frontend) e Render (backend);
-- Boas práticas de organização e responsividade.
+## 🌐 Projeto em Produção
+ Frontend:
+🔗 https://devfinance-frontend.vercel.app
 
 ---
-
 ## 🧪 Como rodar localmente
 
 ```bash
@@ -68,3 +59,12 @@ cp .env.example .env
 
 # 4. Rode o projeto
 yarn dev
+
+VITE_API_URL=https://devfinance-backend-1.onrender.com/api
+VITE_FIREBASE_API_KEY=SUA_CHAVE_AQUI
+VITE_FIREBASE_AUTH_DOMAIN=devfinance-XXXXX.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=devfinance-XXXXX
+VITE_FIREBASE_STORAGE_BUCKET=devfinance-XXXXX.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=XXXXXXXXXXXX
+VITE_FIREBASE_APP_ID=SUA_APP_ID_AQUI
+
