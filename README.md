@@ -1,7 +1,7 @@
 
 <div align="center">
-  <a href="https://devfinance-frontend.vercel.app/" target="_blank">💰 DevFinance • Frontend
-</a> 
+  <h1>💰 DevFinance • Frontend
+</h1> 
 </div>
 
 ---
@@ -40,7 +40,7 @@ O **DevFinance** é uma aplicação web que permite que o usuário:
 ---
 ## 🌐 Projeto em Produção
  Frontend:
-🔗 https://devfinance-frontend.vercel.app
+<a href="https://devfinance-frontend.vercel.app/" target="_blank">DevFinance<a/>
 
 ---
 ## 🧪 Como rodar localmente
