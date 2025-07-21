@@ -67,7 +67,7 @@ const Transactions = () => {
       }
       const token = await user.getIdToken();
 
-      const isoDate = new Date(date).toISOString();
+      const isoDate = new Date(date + "T12:00:00").toISOString();
 
       console.log("Payload enviado para API:", {
         description: title,
