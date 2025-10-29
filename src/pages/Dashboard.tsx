@@ -52,7 +52,7 @@ const Dashboard = () => {
   }, [month, year]);
 
   const renderPieChartLabel = ({ name, percent }: PieLabelRenderProps): string => {
-    const percentage = percent ?? 0;
+    const percentage = typeof percent === "number" ? percent : 0;
     return `${name}: ${(percentage * 100).toFixed(1)}%`;
   };
 
