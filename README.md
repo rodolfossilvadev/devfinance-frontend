@@ -142,5 +142,3 @@ export default tseslint.config([
   },
 ])
 ```
->>>>>>> b76b2e8 (Primeiro commit)
->>>>>>> f8673ba (Primeiro commit)
